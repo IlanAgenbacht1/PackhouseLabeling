@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:inputType="number"
+        android:key="default_label_qty"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Label Quantity"
+        android:summary="Default Label Quantity to Print"/>
+
+    <Preference
+        android:key="calibrate"
+        android:title="Calibrate Printer"/>
+
+    <Preference
+        android:key="reset"
+        android:title="Reset Printer"/>
+
+</PreferenceScreen>
